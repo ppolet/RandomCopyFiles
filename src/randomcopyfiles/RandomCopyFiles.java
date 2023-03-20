@@ -75,7 +75,7 @@ public class RandomCopyFiles {
     
     public static void copyFile(File from, File to) throws IOException {
         Files.copy(from.toPath(), to.toPath(), StandardCopyOption.REPLACE_EXISTING);
-       
+       int n = 0;
     }
     
 }
